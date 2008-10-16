@@ -92,6 +92,11 @@ describe "Headliner" do
                   :reverse => true).should eql("<title>iphone - apple</title>")
     end
     
+    it "should use default one if title is not present or blank" do
+      save_basic_title("")
+      @view.title(:site => "Apple", :default => "New MacBook").should eql("<title>Apple | New MacBook</title>")
+    end
+    
   end
   
   def save_basic_title(title='iPhone')
