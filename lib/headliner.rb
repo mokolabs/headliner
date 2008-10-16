@@ -43,6 +43,11 @@ module Headliner
     if options[:lowercase] == true
       @title = @title.downcase unless @title.blank?
     end
+    
+    # Default page title
+    if @title.blank? && options[:default]
+      @title = options[:default]
+    end
 
     # Set website/page order
     unless @title.blank?
