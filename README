@@ -67,6 +67,7 @@ Use these options to customize the title format:
 :suffix (text between separator and page title)
 :lowercase (when true, the page name will be lowercase)
 :reverse (when true, the page and site names will be reversed)
+:default (default title to use when title is blank)
 
 And here are a few examples to give you ideas.
 
@@ -74,6 +75,7 @@ And here are a few examples to give you ideas.
 <%= title :prefix => false, :separator => ":" %>
 <%= title :lowercase => true %>
 <%= title :reverse => true, :prefix => false %>
+<%= title :default => "The ultimate site for Rails" %>
 
 
 Dealing with special pages
@@ -106,13 +108,13 @@ at first glance, it looks like you're using a variable (in the head)
 before it's been assigned a value (in the body). Cool, huh?
 
 
-Credits
-=======
+Contributors
+============
 
-Special thanks to Nick Zadrozny and Jordan Fowler for their input.
+Special thanks to James Chan, Nick Zadrozny, and Jordan Fowler. 
 
 
 Feedback
 ========
 
-Comments, bug reports, and svn diffs welcome at http://the.railsi.st.
+Comments and patches welcome at http://github.com/mokolabs/headliner/
