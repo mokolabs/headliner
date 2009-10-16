@@ -1,7 +1,7 @@
 Headliner
 =========
 
-Headliner DRYs up your page titles.
+Headliner is a Rails plugin that makes it easier to assign and format page titles from your views.
 
 
 Background
