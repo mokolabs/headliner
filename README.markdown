@@ -28,6 +28,14 @@ This works okay... but page titles don't really belong in controllers, do they?
 So, by moving these titles into your views, we can DRY things up a bit and reinforce the MVC design pattern that's so fundamental to Ruby on Rails.
 
 
+Install
+=======
+
+To install, just add Headliner to your `vendor/plugins` directory:
+
+    script/plugin install git://github.com/mokolabs/headliner.git
+    
+    
 Usage
 =====
 
