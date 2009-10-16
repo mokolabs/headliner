@@ -57,12 +57,12 @@ Options
 
 Use these options to customize the title format:
 
-`:prefix` (text between site name and separator)
-`:separator` (text used to separate website name from page title)
-`:suffix` (text between separator and page title)
-`:lowercase` (when true, the page name will be lowercase)
-`:reverse` (when true, the page and site names will be reversed)
-`:default` (default title to use when title is blank)
+    :prefix (text between site name and separator)
+    :separator (text used to separate website name from page title)
+    :suffix (text between separator and page title)
+    :lowercase (when true, the page name will be lowercase)
+    :reverse (when true, the page and site names will be reversed)
+    :default (default title to use when title is blank)
 
 And here are a few examples to give you ideas.
 
