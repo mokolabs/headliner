@@ -117,4 +117,4 @@ Special thanks to James Chan, Nick Zadrozny, and Jordan Fowler.
 Feedback
 ========
 
-Comments and patches welcome at [http://the.railsi.st](http://the.railsi.st).
+Comments and patches welcome at [http://github.com/mokolabs/headliner/](http://github.com/mokolabs/headliner/).
