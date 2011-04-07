@@ -17,7 +17,7 @@ describe "Headliner" do
     end
     
     it "should respond to 'title' helper alias" do
-      @view.should respond_to(:t)
+      @view.should respond_to(:st)
     end
     
   end

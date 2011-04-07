@@ -64,7 +64,7 @@ module Headliner
     content_tag :title, options[:site]
   end
 
-  # Mr. T says, "Use my method, fool!"
-  alias t title
+  # Mr. ST says, "Use my method, fool!"
+  alias st title
 
 end

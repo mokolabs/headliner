@@ -93,14 +93,12 @@ What if your view headline is different from your page title?
     <%= title "My page title", "My headline" %>
 
 
-Mr. T says, ‘Use my method, fool!’
+Mr. ST says, ‘Use my method, fool!’
 ==================================
 
 Just like ERB's HTML safe method, you can invoke Headliner with a single letter alias.
 
-    <h1><%=t "My page title" %></h1>
-    
-Note: this alias conflicts with the Rails Internationalization (I18n) API translation method (since it provides the same alias). If you're app requires I18n support, you should use one of [these](http://github.com/nivanson/headliner) [forks](http://github.com/galfert/headliner) on Github.
+    <h1><%=st "My page title" %></h1>
 
 
 How does it work?
